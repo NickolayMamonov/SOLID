@@ -2,5 +2,7 @@
 
 using SOLID;
 
-var car = new Car("Skoda","Octavia","Engine");
-car.Repair();
+var carEngineProblem = new Engine("Skoda","Octavia","Engine");
+carEngineProblem.Repair();
+var carTransmissionProblem = new Transmission("Skoda","Superb","Transmission");
+carTransmissionProblem.Repair();
