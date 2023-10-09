@@ -1,0 +1,23 @@
+@startuml
+
+abstract class Car{
+    + Brand : string
+    + Model : string
+    + Problem : string
+    
+    +abstract void  Repair()
+}
+
+class Engine {
+ +Car(brand: string, model: string, problem: string)
+ +void Repair()
+}
+
+class Transmission {
+ +Car(brand: string, model: string, problem: string)
+ +void Repair()
+}
+
+Car <|-- Engine
+Car <|-- Transmission
+@enduml
