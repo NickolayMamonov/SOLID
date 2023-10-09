@@ -4,14 +4,13 @@ public class Car
 {
     public Car(string model, string brand,string problem)
     {
-        
-        this.model = model;
-        this.brand = brand;
+        Model = model;
+        Brand = brand;
         Problem = problem;
     }
 
-    private string brand { get; set; }
-    private string model { get; set; }
+    private string Brand { get; set; }
+    private string Model { get; set; }
     private string Problem { get; set; }
 
     public void Repair()

@@ -1,0 +1,10 @@
+@startuml
+class Car{
+ -Brand: string
+ -Model: string
+ -Problem: string
+ 
+ +Car(brand: string, model: string, problem: string)
+ +void Repair()
+}
+@enduml
