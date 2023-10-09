@@ -1,3 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Hello, World!");
+using SOLID;
+
+var car = new Car("Skoda","Octavia","Engine");
+car.Repair();
