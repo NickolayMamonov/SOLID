@@ -5,17 +5,19 @@ abstract class Car{
     + Model : string
     + Problem : string
     
-    +abstract void  Repair()
+    +{abstract} Repair(): void
 }
 
 class Engine {
+
  +Car(brand: string, model: string, problem: string)
- +void Repair()
+ +Repair(): void
 }
 
 class Transmission {
+
  +Car(brand: string, model: string, problem: string)
- +void Repair()
+ +Repair(): void
 }
 
 Car <|-- Engine
