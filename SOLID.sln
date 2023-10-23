@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{4D2ABE70-0E60-4B06-AEC2-3E1D5528D3CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversion", "DependencyInversion\DependencyInversion.csproj", "{2282962A-43BD-4283-AF87-E75CB5AA3815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4D2ABE70-0E60-4B06-AEC2-3E1D5528D3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D2ABE70-0E60-4B06-AEC2-3E1D5528D3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D2ABE70-0E60-4B06-AEC2-3E1D5528D3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2282962A-43BD-4283-AF87-E75CB5AA3815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2282962A-43BD-4283-AF87-E75CB5AA3815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2282962A-43BD-4283-AF87-E75CB5AA3815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2282962A-43BD-4283-AF87-E75CB5AA3815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
